@@ -1,0 +1,19 @@
+{
+  "name": "acervo-oo",
+  "version": "1.0.0",
+  "description": "Sistema de acervo em console — trabalho de Orientação a Objetos",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Gabriely Montanhana",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
